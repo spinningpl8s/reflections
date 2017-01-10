@@ -11,3 +11,13 @@ The staging area seems useful for helping you to organize the next commit.
 How can you use the staging area to make sure you have one commit per logical change?
 
 The staging area will show you which files have changed.  Running git diff --staged will show you which code changes will be committed.  This information should help you determine if your staged commit is one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When working on an experimental new feature or refactoring it would be useful to do so on a branch so that I know that I'm not breaking my master version.
+
+Branches would help me to keep my sub-projects organized.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams show at what point the branches diverged.  They also show how many commits have taken place on each branch, which indicates how many differences there are between the branches.
