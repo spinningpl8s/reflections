@@ -21,3 +21,26 @@ Branches would help me to keep my sub-projects organized.
 How do the diagrams help you visualize the branch structure?
 
 The diagrams show at what point the branches diverged.  They also show how many commits have taken place on each branch, which indicates how many differences there are between the branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together combines them into one branch and combines the commit history of both branches.  When two branches merge into one they are represented by a single branch going forward.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging:
+Pros:
+automatic, no effort
+fast
+
+Cons:
+can't handle ambiguous situations
+
+Manaul merging:
+Pros:
+alerts author to all changes
+necessary for ambiguous situations
+
+Cons:
+takes effort
+isn't necessary for unambiguous situations
