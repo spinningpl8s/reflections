@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When using multiple computers to work on the same project.  When collaborating with other contributors on the same project.
+In both of these cases, a remote repository collects everyone submissions in one place.
