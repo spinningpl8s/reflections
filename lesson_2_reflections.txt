@@ -49,3 +49,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
 The remote repository may receive updates from another contributor that are incompatible with your changes.
 If the repository updated automatically you might be frequently spending time merging your changes into the latest version of the repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Creating a fork is like cloning a repository from another user.
+Creating a clone is when you want the same repository to exist in multiple places.
+Creating a branch is when you want to experiment with code changes without impacting the master branch.
