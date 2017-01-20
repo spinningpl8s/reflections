@@ -25,33 +25,3 @@ The diagrams show at what point the branches diverged.  They also show how many 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together combines them into one branch and combines the commit history of both branches.  When two branches merge into one they are represented by a single branch going forward.
-
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-Automatic merging:
-Pros:
-automatic, no effort
-fast
-
-Cons:
-can't handle ambiguous situations
-
-Manaul merging:
-Pros:
-alerts author to all changes
-necessary for ambiguous situations
-
-Cons:
-takes effort
-isn't necessary for unambiguous situations
-
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-
-The remote repository may receive updates from another contributor that are incompatible with your changes.
-If the repository updated automatically you might be frequently spending time merging your changes into the latest version of the repository.
-
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
-
-Creating a fork is like cloning a repository from another user.
-Creating a clone is when you want the same repository to exist in multiple places.
-Creating a branch is when you want to experiment with code changes without impacting the master branch.
