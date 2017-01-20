@@ -44,3 +44,9 @@ I would collaborate by using a shared file that me and my collaborators could al
 We would have to periodically back up versions of our work and we might find ourselves both trying to work on the same file at the same time and getting in each other's way.
 
 It might be easier, however, not having to remember git commands.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If I'm making a large change involving multiple commits it probably makes sense to use a branch.
+
+If I'm collaborating with others it also probably makes sense to use a branch.  That way I can create pull requests to have my changes incorporated.
