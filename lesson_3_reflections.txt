@@ -36,3 +36,11 @@ Creating a branch is when you want to experiment with code changes without impac
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If a copy of the remote is stored locally you will be able to merge your changes without pulling the remote branch beforehand.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would collaborate by using a shared file that me and my collaborators could all access update when we wanted to.
+
+We would have to periodically back up versions of our work and we might find ourselves both trying to work on the same file at the same time and getting in each other's way.
+
+It might be easier, however, not having to remember git commands.
